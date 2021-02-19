@@ -5,7 +5,7 @@
  */
 package sort;
 
-import static java.util.Collections.swap;
+
 import java.util.Scanner;
 
 /**
@@ -22,7 +22,7 @@ Scanner scan=new Scanner(System.in);
         System.out.println("how many numbers");
 int j=scan.nextInt();
 int[] num=new int[j+1];
-int temp=0;
+int temp;
 for(int i=0;i<j;i++)
 {
     num[i]=scan.nextInt();
